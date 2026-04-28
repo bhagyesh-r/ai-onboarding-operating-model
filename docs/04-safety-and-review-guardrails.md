@@ -41,9 +41,13 @@ Prevention:
 - Escalate risky areas to reviewers with the right expertise.
 - Break large agent-assisted changes into reviewable slices.
 
-## Open policy decisions
+## Bootstrap decisions
 
-- Final GitHub repository name
-- Remote hosting owner and permissions model
-- Whether stack tracks live in this repo or in forked sibling repos after the first iteration
+- GitHub repository: `bhagyesh-r/ai-onboarding-operating-model`
+- Access model for the bootstrap phase: public repository so collaborators can clone and review immediately
+- Track strategy for the first iteration: keep shared foundations and stack overlays in one repo until the overlays outgrow the common operating model
 
+## Follow-up policy decisions
+
+- whether to transfer the repo into an organization-owned namespace
+- whether any stack overlay should become its own repo after the first round of experiments
